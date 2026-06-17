@@ -3,7 +3,7 @@ layout: page.njk
 title: 'Nuzlocke'
 permalink: /nuzlocke/
 tags: [page, game, pokemon]
-date: 2026-03-24T08:00:00.00-05:00
+date: 2026-06-16T08:00:00.00-04:00
 ---
 
 ## Rules
@@ -33,28 +33,34 @@ Here are my slightly modified [Nuzlocke Challenge](https://bulbapedia.bulbagarde
 
 **Ended**: "Died" to my rival on Route 22.
 
-### 2nd Run
+### ~~2nd Run~~
 
 **Party**:
 
-- Robert (Wartortle, Lv28)
+- ~~Robert (Wartortle, Lv28)~~
 - ~~Lucas (Pidgey, Lv20)~~
 - ~~Peter (Rattata, Lv23)~~
 - ~~Sarah (Mankey, Lv23)~~
-- Philippe (Butterfree, Lv28)
-- Hiro (Weedle, Lv8, boxed)
-- Gracie (Zubat, Lv10, boxed)
+- ~~Philippe (Butterfree, Lv28)~~
+- ~~Hiro (Weedle, Lv8, boxed)~~
+- ~~Gracie (Zubat, Lv10, boxed)~~
 - ~~Tomo (Sandshrew, Lv14)~~
-- Samuel (Weepinbell, Lv28, 1 revive)
-- Tofu (Meowth, Lv10, boxed)
-- Goldie (Magikarp, Lv5, boxed)
-- Larry (Diglette, Lv28) 
-- Puki (Vulpix, Lv16, 1 revive)
+- ~~Samuel (Weepinbell, Lv28, 1 revive)~~
+- ~~Tofu (Meowth, Lv10, boxed)~~
+- ~~Goldie (Magikarp, Lv5, boxed)~~
+- ~~Larry (Diglette, Lv28)~~
+- ~~Puki (Vulpix, Lv16, 1 revive)~~
 
 **Badges**: 3
 
-**Lives**: 1
+**Lives**: 0
 
 **Max level**: 29
 
-**Currently**: Chillin' in Vermilion City.
+~~**Currently**: Chillin' in Vermilion City.~~
+
+**Ended**: "Died" to Erika at the Celadon City Gym.
+
+## 3rd Run
+
+Maybe someday...

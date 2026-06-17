@@ -16,5 +16,6 @@ Up next:
 - Fourth generation (Pokémon Platinum)
 - Fifth generation (Either Pokémon Black 2 or White 2)
 - Et Cetera
+- Consider the various remakes someday maybe
 
 See: [https://en.wikipedia.org/wiki/Pokémon_(video_game_series)](https://en.wikipedia.org/wiki/Pokémon_(video_game_series))
