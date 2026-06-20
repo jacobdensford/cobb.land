@@ -123,16 +123,17 @@ var woodPaneledSites = [
   },
 ];
 
-
-if (window.location.href.startsWith('localhost') || window.location.href.startsWith('0.0.0.0')) {
-  sites.push(
-    {
-      title: 'Development Site',
-      url: thisSite,
-      description: 'Development Site'
-    }
-  )
-}
+// The following breaks my script.
+//
+// if (window.location.href.startsWith('localhost') || window.location.href.startsWith('0.0.0.0')) {
+//   sites.push(
+//     {
+//       title: 'Development Site',
+//       url: thisSite,
+//       description: 'Development Site'
+//     }
+//   )
+// }
 
 var woodPaneledRingName = "The Wood-Paneled Web Ring";
 var woodPaneledRingID = "woodpanel";
