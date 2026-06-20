@@ -1,11 +1,11 @@
 ---
-title: Children of the Jedi
-creator: Barbara Hambly
-cart: bookcart
-type: novel
-date: 2025-11-08T8:30:00.00-04:00
-started: 2025-11-08T8:30:00.00-04:00
-finished:
+title: EMPTY
+creator: EMPTY
+cart: EMPTY
+type: EMPTY
+date: 2025-08-03T11:13:00.00-04:00
+started: 
+finished: 
 score: 
 possed: 
 ---

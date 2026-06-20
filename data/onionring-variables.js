@@ -116,12 +116,29 @@ var woodPaneledSites = [
     url: "https://talesfromthestars.ink/", 
     description: "Original fairy tales and doodles.",
   },
+   { 
+    title: "Thinking and Occasionally Typing as a Service", 
+    url: "https://zacbir.net/", 
+    description: "Just 'zis guy, you know?",
+  },
 ];
+
+
+if (window.location.href.startsWith('localhost') || window.location.href.startsWith('0.0.0.0')) {
+  sites.push(
+    {
+      title: 'Development Site',
+      url: thisSite,
+      description: 'Development Site'
+    }
+  )
+}
 
 var woodPaneledRingName = "The Wood-Paneled Web Ring";
 var woodPaneledRingID = "woodpanel";
 var useWoodpaneledIndex = false;
 var woodPaneledIndexPage = "https://woodpaneled.org/";
 var useWoodPaneledRandom = true;
+
 
 export {woodPaneledSites};
