@@ -1,11 +1,12 @@
 ---
-title: "The Legend of Zelda: Link's Awakening DX"
-creator: Nintendo
-cart: gamecart
-type: gbc
-date: 2026-04-15T12:30:00.00-04:00
-started: 2026-04-15T12:30:00.00-04:00
-finished:
-score:
-possed:
+title: EMPTY
+creator: EMPTY
+cart: EMPTY
+type: EMPTY
+date: 2025-08-03T11:13:00.00-04:00
+started: 
+finished: 
+score: 
+possed: 
 ---
+
