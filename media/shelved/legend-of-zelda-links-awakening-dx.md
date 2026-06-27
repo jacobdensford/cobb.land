@@ -10,4 +10,4 @@ score: 4
 possed:
 ---
 
-
+I really used to think the Game Boy peaked at Pokemon. As a kid, I even owned The Legend of Zelda: Link's Awakening, but I had no idea how wrong I was, because I never even played it long enough to find the first dungeon. Well, this is it, folks—moment to moment gameplay, puzzles, and story—this is the best Game Boy game I've ever played. **I strongly recommend it.**
