@@ -17,5 +17,5 @@ I keep trying to play modern games and failing. Occasionally, I'll make it throu
 At two hours, six hours, and twelve hours (and twenty-four hours and beyond in the case of longer games that meet my criteria):
 
 - I will reassess if I'm having fun or just trying to check the game of my list (or check things of an in-game list)
-- I'll only continue playing games where it continues to be about experiencing over managing, where unfinished states do not accumulate into perceived obligation
-- If I've shifted into management mode, I'm done with the game and it gets abandoned
+- I'll only continue playing games where it continues to be more about experiencing than managing, where unfinished states do not accumulate into perceived obligations
+- If I've shifted irrecoverably into management mode, I'm done with the game and it gets abandoned
