@@ -1,0 +1,274 @@
+---
+layout: none.html
+title: Game Quality Index
+permalink: /gqi/
+tags: [app]
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Quality Index</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+
+        /* Light mode (default) */
+        :root {
+            --bg: #f5f5f5;
+            --container-bg: #ffffff;
+            --text: #1a1a1a;
+            --text-secondary: #555;
+            --text-muted: #888;
+            --border: #ddd;
+            --input-bg: #ffffff;
+            --input-border: #ccc;
+            --input-focus: #999;
+            --button-bg: #e0e0e0;
+            --button-hover: #d0d0d0;
+            --button-text: #1a1a1a;
+            --result-bg: #f9f9f9;
+            --shadow: rgba(0, 0, 0, 0.1);
+            --accent: #888;
+        }
+
+        /* Dark mode */
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #1a1a1a;
+                --container-bg: #2a2a2a;
+                --text: #e0e0e0;
+                --text-secondary: #aaa;
+                --text-muted: #666;
+                --border: #3a3a3a;
+                --input-bg: #1a1a1a;
+                --input-border: #3a3a3a;
+                --input-focus: #6a6a6a;
+                --button-bg: #3a3a3a;
+                --button-hover: #4a4a4a;
+                --button-text: #fff;
+                --result-bg: #1a1a1a;
+                --shadow: rgba(0, 0, 0, 0.5);
+                --accent: #888;
+            }
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--text);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        .container {
+            background: var(--container-bg);
+            border-radius: 12px;
+            padding: 30px;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 8px 24px var(--shadow);
+            transition: background 0.3s, box-shadow 0.3s;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 0;
+            color: var(--text);
+            font-weight: 400;
+            letter-spacing: 1px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 15px;
+            transition: color 0.3s, border-color 0.3s;
+        }
+
+        label {
+            display: block;
+            margin: 16px 0 4px;
+            font-size: 14px;
+            color: var(--text-secondary);
+            transition: color 0.3s;
+        }
+
+        input[type="number"] {
+            width: 100%;
+            padding: 10px 12px;
+            background: var(--input-bg);
+            border: 1px solid var(--input-border);
+            border-radius: 6px;
+            color: var(--text);
+            font-size: 16px;
+            transition: border-color 0.2s, background 0.3s, color 0.3s;
+        }
+
+        input[type="number"]:focus {
+            outline: none;
+            border-color: var(--input-focus);
+        }
+
+        input[type="range"] {
+            width: 100%;
+            padding: 0;
+            background: transparent;
+            accent-color: var(--accent);
+        }
+
+        .range-value {
+            font-size: 14px;
+            color: var(--text-secondary);
+            text-align: right;
+            margin-top: 2px;
+            transition: color 0.3s;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 20px;
+            background: var(--button-bg);
+            color: var(--button-text);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.2s, color 0.3s, border-color 0.3s;
+        }
+
+        button:hover {
+            background: var(--button-hover);
+        }
+
+        .result {
+            margin-top: 20px;
+            padding: 16px;
+            background: var(--result-bg);
+            border-radius: 6px;
+            text-align: center;
+            display: none;
+            transition: background 0.3s;
+        }
+
+        .result.show {
+            display: block;
+        }
+
+        .result .score {
+            font-size: 32px;
+            font-weight: 600;
+            color: var(--text);
+            transition: color 0.3s;
+        }
+
+        .result .rating {
+            font-size: 20px;
+            margin-top: 6px;
+        }
+
+        .result .label {
+            font-size: 14px;
+            color: var(--text-muted);
+            margin-top: 8px;
+            transition: color 0.3s;
+        }
+
+        .footer {
+            margin-top: 16px;
+            font-size: 12px;
+            color: var(--text-muted);
+            text-align: center;
+            transition: color 0.3s;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Game Quality Index</h1>
+
+        <label for="rating">Metacritic Score (0–100)</label>
+        <input type="number" id="rating" placeholder="e.g. 85" min="0" max="100" step="0.1" />
+
+        <label for="bonus">Trust Bonus (0.0 – 0.3)</label>
+        <input type="range" id="bonus" min="0" max="0.3" step="0.01" value="0" />
+        <div class="range-value" id="bonusDisplay">+0.00</div>
+
+        <label for="penalty">Bloat Penalty (0.0 – -0.3)</label>
+        <input type="range" id="penalty" min="-0.3" max="0" step="0.01" value="0" />
+        <div class="range-value" id="penaltyDisplay">-0.00</div>
+
+        <button id="calculateBtn">Calculate</button>
+
+        <div class="result" id="result">
+            <div class="score" id="scoreDisplay">0.00</div>
+            <div class="rating" id="ratingDisplay">—</div>
+            <div class="label" id="labelDisplay">Enter values and hit Calculate</div>
+        </div>
+
+        <div class="footer">Score = (Rating ÷ 100) × (1.0 + Bonus + Penalty)</div>
+    </div>
+
+    <script>
+        const ratingInput = document.getElementById('rating');
+        const bonusInput = document.getElementById('bonus');
+        const penaltyInput = document.getElementById('penalty');
+        const bonusDisplay = document.getElementById('bonusDisplay');
+        const penaltyDisplay = document.getElementById('penaltyDisplay');
+        const calculateBtn = document.getElementById('calculateBtn');
+        const resultDiv = document.getElementById('result');
+        const scoreDisplay = document.getElementById('scoreDisplay');
+        const ratingDisplay = document.getElementById('ratingDisplay');
+        const labelDisplay = document.getElementById('labelDisplay');
+
+        function updateDisplays() {
+            const bonus = parseFloat(bonusInput.value);
+            const penalty = parseFloat(penaltyInput.value);
+            bonusDisplay.textContent = bonus >= 0 ? `+${bonus.toFixed(2)}` : bonus.toFixed(2);
+            penaltyDisplay.textContent = penalty <= 0 ? penalty.toFixed(2) : `+${penalty.toFixed(2)}`;
+        }
+
+        bonusInput.addEventListener('input', updateDisplays);
+        penaltyInput.addEventListener('input', updateDisplays);
+        updateDisplays();
+
+        function getRatingLabel(score) {
+            if (score >= 1.1) return { label: '4/4 — Strongly Recommend', color: '#4caf50' };
+            if (score >= 0.9) return { label: '3/4 — Recommend', color: '#8bc34a' };
+            if (score >= 0.7) return { label: '2/4 — Recommend with Reservations', color: '#ff9800' };
+            if (score >= 0.6) return { label: '1/4 — Do Not Recommend', color: '#f44336' };
+            return { label: '0/4 — Definitely Not', color: '#9e9e9e' };
+        }
+
+        function calculate() {
+            const rating = parseFloat(ratingInput.value);
+            const bonus = parseFloat(bonusInput.value);
+            const penalty = parseFloat(penaltyInput.value);
+
+            if (isNaN(rating) || rating < 0 || rating > 100) {
+                alert('Please enter a valid Metacritic score between 0 and 100.');
+                return;
+            }
+
+            const score = (rating / 100) * (1 + bonus + penalty);
+            const result = getRatingLabel(score);
+
+            scoreDisplay.textContent = score.toFixed(2);
+            ratingDisplay.textContent = result.label;
+            ratingDisplay.style.color = result.color;
+            labelDisplay.textContent = `Based on ${rating}/100 with Bonus ${bonus >= 0 ? '+' : ''}${bonus.toFixed(2)} and Penalty ${penalty.toFixed(2)}`;
+            resultDiv.classList.add('show');
+        }
+
+        calculateBtn.addEventListener('click', calculate);
+
+        ratingInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') calculate(); });
+    </script>
+
+</body>
+</html>
