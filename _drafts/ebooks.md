@@ -11,3 +11,5 @@ too much talk of san fran
 https://youtu.be/PygUK16aQgk?si=vk4ER8CTVefLwROR
 https://practicaltypography.com/why-theres-no-e-book-or-pdf.html
 https://internetphonebook.net
+
+https://libreture.com/bookshops/

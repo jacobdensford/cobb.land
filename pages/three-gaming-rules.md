@@ -14,7 +14,7 @@ I keep trying to play modern games and failing. Occasionally, I'll make it throu
 
 - Have originally released before around 2005 (pre PS3/360 era), or
 - Take place in a world, series, or franchise I already love, or
-- Take around twenty-four hours or less to roll credits
+- Take around twenty-four hours or less to roll credits (preferably twelve)
 
 ## 2. Mindsets
 
