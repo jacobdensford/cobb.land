@@ -8,7 +8,7 @@ date: 2026-06-30T10:30:00.00-04:00
 
 # Game Quality Index
 
-**Score = (Rating ÷ 10) × (1.0 + Bonus - Penalty)**
+**Index = (Rating ÷ 10) × (1.0 + Bonus - Penalty)**
 
 - Apply 0.0–0.3 bonus for following all my [rules](/three-gaming-rules)
 - Subtract 0.0–0.3 penalty for breaking from my rules (being overlong, containing too many checklists, etc)
