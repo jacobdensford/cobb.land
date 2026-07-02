@@ -16,13 +16,13 @@ date: 2026-07-02T10:30:00.00-04:00
 
 ## Estimated Personal Rating Given Index
 
-| Personal Recommendation Index | Estimated Personal Rating       |
-| ----------------------------- | ------------------------------- |
-| 1.1–1.3                       | 4/4—strongly recommend          |
-| 0.9–1.1                       | 3/4—recommend                   |
-| 0.7–0.9                       | 2/4–recommend with reservations |
-| 0.5–0.7                       | 1/4—do not recommend            |
-| 0.0–0.5                       | 0/4—definitely not              |
+| PRI     | Estimated Personal Rating       |
+| ------- | ------------------------------- |
+| 1.1–1.3 | 4/4—strongly recommend          |
+| 0.9–1.1 | 3/4—recommend                   |
+| 0.7–0.9 | 2/4–recommend with reservations |
+| 0.5–0.7 | 1/4—do not recommend            |
+| 0.0–0.5 | 0/4—definitely not              |
 
 ## Function
 
