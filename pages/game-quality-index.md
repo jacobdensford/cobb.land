@@ -3,7 +3,7 @@ layout: page.njk
 title: "Personal Recommendation Index"
 permalink: /game-quality-index/
 tags: [game]
-date: 2026-06-30T10:30:00.00-04:00
+date: 2026-07-02T10:30:00.00-04:00
 ---
 
 # Personal Recommendation Index
@@ -33,6 +33,6 @@ function personalRecommendationIndex(communityScore, fitModifier) {
     const weight = (communityScore - 75) / 25;
     const adjustment = 0.3 * weight;
     const multiplier = fitModifier >= 0 ? 1 + adjustment : 1 - adjustment;
-    return communityScore + fitModifier * multiplier;
+    return (communityScore + fitModifier * multiplier) / 100;
 }
 ```

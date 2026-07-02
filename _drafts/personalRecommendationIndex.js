@@ -7,6 +7,6 @@ function personalRecommendationIndex(communityScore, fitModifier) {
     const weight = (communityScore - 75) / 25;
     const adjustment = 0.3 * weight;
     const multiplier = fitModifier >= 0 ? 1 + adjustment : 1 - adjustment;
-    return communityScore + fitModifier * multiplier;
+    return (communityScore + fitModifier * multiplier) / 100;
 }
 
