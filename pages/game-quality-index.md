@@ -29,6 +29,12 @@ date: 2026-07-02T10:30:00.00-04:00
 Here it is expressed as a JavaScript function (note how the multiplier works).
 
 ```
+// Takes a community score between 0 and 100
+// Takes a fit modifier (how likely do I feel I am to enjoy this game) from -30 to 30
+// Takes a number from 0 to 1 that represents trust in the community score
+// Weighs positive fit to apply more for higher rated games and negative fit less,
+// with strength based on community trust
+
 function personalRecommendationIndex(communityScore, fitModifier) {
     const weight = (communityScore - 75) / 25;
     const adjustment = 0.3 * weight;
