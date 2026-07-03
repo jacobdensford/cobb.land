@@ -105,10 +105,10 @@ date: 2026-07-03T10:30:00.00-04:00
     updatePRI();
 </script>
 
-The Personal Recommendation Index (or PRI) is a number that estimates how likely one is to enjoy a game.
+The Personal Recommendation Index (or PRI) is a number that estimates how likely one is to enjoy a piece of media.
 
-- Community score should be from 50 to 100 (games rated lower aren't considered)
-- Fit modifier is a number between -30 and 30 representing how likely one feels they are to enjoy a game (for me, it's largely based on my [rules](/three-gaming-rules))
+- Community score should be from 50 to 100 (media rated lower isn't considered)
+- Fit modifier is a number between -30 and 30 representing how likely one feels they are to enjoy a piece of media (for me, it's largely based on my [rules](/three-gaming-rules))
 - Trust multiplier ranges from 0 to 2 and represents ones trust in the community score; it adjusts the strength of fit modifier dependent on community rating, with positive fit modifiers gaining weight for higher rated games and negative fit modifiers losing weight
 
 ## Estimated Personal Rating Given Index
