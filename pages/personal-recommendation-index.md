@@ -31,8 +31,8 @@ date: 2026-07-03T10:30:00.00-04:00
         <label for="trust-multiplier">
             Trust Multiplier
             <div class="input-range">
-                <span>1.0</span>
-                <input type="range" name="trust-multiplier" id="trust-multiplier" min="1.0" max="2.0" step="0.1" value="1.0">
+                <span>0.0</span>
+                <input type="range" name="trust-multiplier" id="trust-multiplier" min="0.0" max="2.0" step="0.1" value="1.0">
                 <span>2.0</span>
             </div>
             <span id="current-trust" class="current-value">1</span>
@@ -107,7 +107,7 @@ date: 2026-07-03T10:30:00.00-04:00
 
 - Community score should be out of 100 (50 or higher, really)
 - Fit modifier is a number between -30 and 30 representing how likely I feel I am to enjoy a game (largely based on my [rules](/three-gaming-rules)
-- Trust multiplier adjusts the strength of fit modifier dependant on community rating, with positive fit modifiers gaining weight for higher rated games and negative fit modifiers losing weight
+- Trust multiplier adjusts the strength of fit modifier dependent on community rating, with positive fit modifiers gaining weight for higher rated games and negative fit modifiers losing weight
 
 ## Estimated Personal Rating Given Index
 
