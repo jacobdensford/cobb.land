@@ -3,7 +3,7 @@ title: "Three Gaming Rules and the Personal Recommendation Index"
 summary: "Rules and tools for fun and profit(?!?!)"
 tags: [game]
 date: 2026-07-03T16:00:00.00-04:00
-possed: 
+possed: "https://dice.camp/@cobb/116857840666458543" 
 ---
 
 I keep trying to play modern games and failing. Occasionally, I'll make it through one and enjoy it. But the game has to have something extra special for me to succeed. Otherwise, I just end up quitting before the end. So I've made [three "simple" rules](/three-gaming-rules/) for choosing what games to play. And, feeding off of that, I've come up with a system I'm calling the [Personal Recommendation Index](/personal-recommendation-index/).
