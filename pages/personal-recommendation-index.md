@@ -8,6 +8,8 @@ date: 2026-07-03T10:30:00.00-04:00
 
 # Personal Recommendation Index
 
+**Index = (Community Score + Fit Modifier * Trust Multiplier) / 100**
+
 <div id="pri-form">
     <form action="">
         <label for="community-score">
@@ -103,11 +105,11 @@ date: 2026-07-03T10:30:00.00-04:00
     updatePRI();
 </script>
 
-**Index = (Community Score + Fit Modifier * Trust Multiplier) / 100**
+The Personal Recommendation Index (or PRI) is a number that estimates how likely one is to enjoy a game.
 
-- Community score should be out of 100 (50 or higher, really)
-- Fit modifier is a number between -30 and 30 representing how likely I feel I am to enjoy a game (largely based on my [rules](/three-gaming-rules)
-- Trust multiplier adjusts the strength of fit modifier dependent on community rating, with positive fit modifiers gaining weight for higher rated games and negative fit modifiers losing weight
+- Community score should be from 50 to 100 (games rated lower aren't considered)
+- Fit modifier is a number between -30 and 30 representing how likely one feels they are to enjoy a game (for me, it's largely based on my [rules](/three-gaming-rules))
+- Trust multiplier ranges from 0 to 2 and represents ones trust in the community score; it adjusts the strength of fit modifier dependent on community rating, with positive fit modifiers gaining weight for higher rated games and negative fit modifiers losing weight
 
 ## Estimated Personal Rating Given Index
 
@@ -121,16 +123,10 @@ date: 2026-07-03T10:30:00.00-04:00
 
 ## Function
 
-Here it is expressed as a JavaScript function (note how the multiplier works).
+Here it is expressed as a JavaScript function.
 
 ```
-// Takes a community score between 50 and 100; games with scores below 50 aren't applicable
-// Takes a fit modifier (how likely do I feel I am to enjoy this game) from -30 to 30, default 0
-// Takes a number from 1 to 2 that represents trust in the community trust, default 1
-// Weighs positive fit to apply more for higher rated games and negative fit less,
-// with strength based on community trust
-
-export default function personalRecommendationIndex(communityScore, fitModifier, communityTrust) {
+function personalRecommendationIndex(communityScore, fitModifier, communityTrust) {
     const baseWeight = 1 + (communityScore - 75) * 0.02;
     const weight = fitModifier >= 0 ? baseWeight : 2 - baseWeight;
     const adjustedWeight = 1 + (weight - 1) * communityTrust;
