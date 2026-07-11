@@ -3,7 +3,7 @@ title: "Weeknotes 2026-28"
 summary: "Weeknotes for the twenty-eighth week of two thousand twenty-six"
 tags: [weeknote]
 date: 2026-07-11T12:00:00.00-04:00
-possed: 
+possed: https://dice.camp/@cobb/116901927857607837
 ---
 
 This is my first weeknote post, and I'm already cheating a little bit by including some things from the week before. Whatever—it's my blog, so I make the rules. Also, as this is my first one, I have no idea how I want to format these yet. I'm sure they'll evolve over time. (Or this will be my first and last weeknote post. Who knows?)
