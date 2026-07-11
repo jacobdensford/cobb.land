@@ -25,11 +25,12 @@ This is my first weeknote post, and I'm already cheating a little bit by includi
 - Trying to decide if I want to commit to playing all the way through Mario Kart
 - Also messing around with *R-Type DX* but not sure if I want to commit to it yet
 - Spent a long time struggling over my GameCube on the Wii controller situation and finally settled on picking up a cheap third-party GameCube controller for now
+- Finished *[Malasombra](/media/shelved/malasombra/)* which was mostly pretty fun but way too hard
 
 ### Movies & Shows
 
 - Kind of stalled on watching *Twinkle Love* (Chinese dating variety show)—the second season's cast just isn't pulling us in like the first season's—but I expect to get back to it soon
-- Started the third season of *Shrinking*, which I'm not sure about yet, because they show had such a great second season series finale already
+- Started the third season of *Shrinking*, which I'm not sure about yet, because the show had such a great second season series finale already
 - Also started the second season of *Mr. Robot* and still not sure about that show
 - Weirdly enjoyed *The Devil Wears Prada 2* more than I thought I would
 
@@ -51,6 +52,7 @@ This is my first weeknote post, and I'm already cheating a little bit by includi
 
 ## This Website
 
+- Wrote a page about my new [Three Gaming Rules](/three-gaming-rules/) and the [Personal Recommendation Index](/personal-recommendation-index/)—something I came up with that required some math and coding, which was fun—and an accompanying [post](/posts/three-gaming-rules-and-pri/)
 - My posts have skewed too heavily towards media reviews lately, so I'm gonna try to write about some other things (hence this weeknote post)
 - Suffocating under the weight of the accumulated spaghetti code that I wrote before I knew what I was doing
 - Might be time for a full rewrite soon...
