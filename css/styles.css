@@ -794,7 +794,7 @@ img.gb {
 
 /* Media styles */
 
-@media (max-width: 1235px) {
+@media (max-width: 1300px) {
     #content {
         display: block;
     }
