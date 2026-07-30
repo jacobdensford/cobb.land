@@ -1,12 +1,11 @@
 ---
-title: "Mr. Penumbra's 24-Hour Bookstore"
-creator: Robin Sloan
-cart: bookcart
-type: novel
-date: 2026-06-27T11:13:00.00-04:00
-started: 2026-06-27T11:13:00.00-04:00
+title: EMPTY
+creator: EMPTY
+cart: EMPTY
+type: EMPTY
+date: 2025-08-03T11:13:00.00-04:00
+started: 
 finished: 
 score: 
 possed: 
 ---
-
