@@ -22,6 +22,11 @@ I'm not sure exactly how I want to format this yet. And there's still more to ad
 - **Desktop Environment:** KDE Plasma
 - **Keyboard:** 8Bitdo Retro Mechanical Keyboard (87-key "N Edition") with Retro 18 Mechanical Numpad
 
+## Other Computers
+
+- **Laptop:** Acer 
+- **Mobile Computer (Smart Phone):** Samsung Galaxy S20 FE
+
 ## Game Consoles and Controllers
 
 Yes, I've nicknamed some of my little gaming handhelds—so what!
@@ -44,15 +49,21 @@ Yes, I've nicknamed some of my little gaming handhelds—so what!
     - Original model in flame red colorway
     - Modified following [this guide](https://3ds.hacks.guide)
     - For playing DS, 3DS (obviously), and Virtual Boy games
+- **Nintendo Wii**
 - **Orangee**, aka my Game Boy ~~(████████ █████████)~~ REDACTED
     - Second release in orange (inferno) colorway
     - For playing GB and GBC games (obviously)
+- **Playstation 4**
 - **Raspberry Pi 3 Model B+**
     - In NES-style case
     - With knockoff SNES controllers
     - Running Batocera
-    - Plugged into whatever CRT TV I have working at any given time
+    - Plugged into whatever CRT TV I have working at any given time (currently none)
     - For emulating games and consoles I don't physically own (up to PS1)
+- **Raspberry Pi 4 Model B**
+    - Same as above but plugged into a modern TV
+    - Also for steaming media
+- **Xbox 360 (Arcade)** *Soon!*
 
 ## Programs and Apps
 
