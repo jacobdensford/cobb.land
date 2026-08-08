@@ -25,7 +25,7 @@ I'm not sure exactly how I want to format this yet. And there's still more to ad
 ## Other Computers
 
 - **Laptop:** Acer 
-- **Mobile Computer (Smart Phone):** Samsung Galaxy S20 FE
+- **Mobile Computer (Smart Phone):** [Samsung Galaxy S20 FE](/mced/)
 
 ## Game Consoles and Controllers
 
@@ -33,7 +33,7 @@ Yes, I've nicknamed some of my little gaming handhelds—so what!
 
 - **8BitDo Pro 3**
     - In "G Classic" colorway
-    - For playing games on my desktop computer
+    - For playing games on my desktop computer and Raspberry Pi(s)
 - **Anbee**, aka my Game Girl (Anbernic RG 35XX Plus)
     - In gray colorway
     - Running Knulli
@@ -50,7 +50,7 @@ Yes, I've nicknamed some of my little gaming handhelds—so what!
     - Modified following [this guide](https://3ds.hacks.guide)
     - For playing DS, 3DS (obviously), and Virtual Boy games
 - **Nintendo Wii**
-- **Orangee**, aka my Game Boy ~~(████████ █████████)~~ REDACTED
+- **Orangee**, aka my [Game Boy](/gb/) ~~(████████ █████████)~~ REDACTED
     - Second release in orange (inferno) colorway
     - For playing GB and GBC games (obviously)
 - **Playstation 4**
@@ -59,7 +59,7 @@ Yes, I've nicknamed some of my little gaming handhelds—so what!
     - With knockoff SNES controllers
     - Running Batocera
     - Plugged into whatever CRT TV I have working at any given time (currently none)
-    - For emulating games and consoles I don't physically own (up to PS1)
+    - For emulating games and consoles I don't physically own (up to PS1, excluding most N64)
 - **Raspberry Pi 4 Model B**
     - Same as above but plugged into a modern TV
     - Also for steaming media
