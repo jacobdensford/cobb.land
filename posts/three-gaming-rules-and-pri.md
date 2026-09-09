@@ -30,9 +30,9 @@ I keep trying to play modern games and failing. Occasionally, I'll make it throu
 
 **At two hours, six hours, and twelve hours (and twenty-four hours and beyond in the case of longer games that meet my criteria)...**
 
-- Reassess if I'm having fun or just trying to check a game of my list (or check things of an in-game list)
+- Reassess if I'm having fun or just trying to check a game off my list (or check things off an in-game list)
 - Only continue playing if it remains more about experiencing than managing, and if I'm still constructing my own understanding of the world rather than consuming the game's
-- Abandon the game if I've shifted irrecoverably into management mode and the game has become mostly an interface for completion
+- Abandon the game if I've shifted irrecoverably into management mode and the game has become mostly an interface for completion—unless I'm still having fun, in which case ignore all of the above.
 
 ## [Personal Recommendation Index](/personal-recommendation-index/)
 
