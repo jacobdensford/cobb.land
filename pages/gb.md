@@ -6,7 +6,7 @@ tags: [page]
 date: 2026-04-07T14:00:00.00-04:00
 ---
 
-## Colors
+## Colors for the ████████ █████████
 
 Press and hold one of the following button combinations while turning on the gb.
 
