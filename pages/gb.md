@@ -101,6 +101,10 @@ A collection of (almost) organized links.
 - https://gbatemp.net
 - https://www.videogamesage.com
 
+### Collections
+
+- [Game Boy Museum](https://www.gameboymuseum.com/)
+
 ### Tools
 
 - [Game Tools Collection](https://game-tools-collection.com) (not just for Game Boy)
