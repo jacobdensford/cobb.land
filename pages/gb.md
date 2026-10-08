@@ -108,7 +108,9 @@ A collection of (almost) organized links.
 ### Tools
 
 - [Game Tools Collection](https://game-tools-collection.com) (not just for Game Boy)
+- [GB-Link](https://gblink.io/)
 
 ### Pokemon
 
 - [Poke Transporter GB](https://github.com/GearsProgress/Poke_Transporter_GB)
+- [Lyra made a website (living pokedex guides](https://lyra-made-a.website/)
