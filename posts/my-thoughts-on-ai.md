@@ -3,7 +3,7 @@ title: "My Thoughts on AI"
 summary: "Spoiler Alert: I Don't Like It"
 tags: [tech]
 date: 2026-10-14T13:30:00.00-04:00
-possed: ""
+possed: "https://dice.camp/@cobb/117440490515493569"
 ---
 
 *For simplicity's sake, I use the term "AI" to refer to LLMs and other related technologies throughout this post. None of these things are actually AI. Also, I ascribe human-like characteristics to AI throughout this post. This is also for simplicity's sake. AI ain't people, it doesn't think or feel, it has no motivation, et cetera.*
