@@ -3,7 +3,7 @@ title: "Reddit Post Collection"
 summary: "Trying to fix my mistakes"
 tags: [star-wars, dnd]
 date: 2026-10-19T17:00:00.00-04:00
-possed: 
+possed: "https://dice.camp/@cobb/117469705854244926"
 ---
 
 I've made a terrible mistake. I've been scrolling and posting on Reddit. I know, I know. But I was bored one day. And I've learned my lesson. No more Reddit.
