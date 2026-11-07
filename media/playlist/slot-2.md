@@ -1,10 +1,10 @@
 ---
-title: EMPTY
-creator: EMPTY
-cart: EMPTY
-type: EMPTY
-date: 2025-08-03T11:13:00.00-04:00
-started: 
+title: "The Crystal Shard"
+creator: "R A Salvatore"
+cart: book
+type: novel
+date: 2026-10-19T21:00:00.00-04:00
+started: 2026-10-19T21:00:00.00-04:00
 finished: 
 score: 
 possed: 
