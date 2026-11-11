@@ -3,7 +3,7 @@ title: "Fall 2026 Site Updates"
 summary: "Some updates and changes I've made to this here website this season"
 tags: [meta]
 date: 2026-11-11T11:15:00.00-05:00
-possed: "URL"
+possed: "https://dice.camp/@cobb/117598761924051532"
 ---
 
 This website ([cobb.land](/), if you don't know where you are) continues to be mostly a chronicle of my media consumption. And even that has been sparse. But I do want this site to be more than that! Still, it's better than nothing.
