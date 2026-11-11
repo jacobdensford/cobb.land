@@ -10,7 +10,7 @@ To me, DND isn't just, or even mostly, corporate Dungeons & Dragons. Instead, DN
 
 I call fantasy DND **Dungeons & Dragons** or **DND Swords**. But it's not just, or even mostly, the corporate Dungeons & Dragons owned by Wizards of the Coast and their parent company Hasbro. DND belongs to the people. It's what we play when we're dealing with wizards and elves.
 
-I call science fiction/fantasy DND **Derelicts & Disasters** or **D&D Space**.
+I call science fiction/fantasy DND **Derelicts & Disasters** or **DND Space**.
 
 When I play DND, I'm usually playing one of the following (presented as a rollable table):
 
