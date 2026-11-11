@@ -33,11 +33,13 @@ special: home-title
         <div>
             <ul class="pages">
                 {% for page in collections.page | sort(attribute='data.title') | limit(24) %}
-                    <li>
-                        <a href="{{ page.url }}">
-                            {{ page.data.title }}
-                        </a>
-                    </li>
+                    {% if "slashpage" in page.data.tags %}
+                        <li>
+                            <a href="{{ page.url }}">
+                                {{ page.data.title }}
+                            </a>
+                        </li>
+                    {% endif %}
                 {% endfor %}
             </ul>
         </div>
