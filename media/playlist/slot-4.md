@@ -1,10 +1,10 @@
 ---
-title: "Lies of P"
-creator: "Neowiz"
-cart: game
-type: pc
-date: 2025-09-15T11:30:00.00-04:00
-started: 2025-09-15T11:30:00.00-04:00
+title: EMPTY
+creator: 
+cart: 
+type: 
+date: 2025-07-08T10:13:00.00-04:00
+started: 
 finished: 
 score: 
 possed: 
