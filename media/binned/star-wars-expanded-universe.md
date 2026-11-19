@@ -21,6 +21,8 @@ Up next books:
 - Tales from Jabba’s Palace
 - Et Cetera
 
+(Consider the [Young Jedi Knight](https://starwars.fandom.com/wiki/Star_Wars:_Young_Jedi_Knights) series, and perhaps [Galaxy of Fear](https://starwars.fandom.com/wiki/Star_Wars:_Galaxy_of_Fear).)
+
 Up next games:
 
 - X-Wing
